@@ -1,4 +1,5 @@
-React Voting Application
+React Voting Application,
+
 This project is a simple voting application built with React. It should contain a Form, a main page, a User page, and an Admin page.
 
 Project Structure
