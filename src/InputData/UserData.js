@@ -4,6 +4,7 @@ export const UserData = [
     Email: 'Nash.Reilly@yahoo.com',
     Password: 'ANtOngcyWNV2yDE',
     Voted: true,
+    img:'/public/assets/img/CEO.JPG',
     id: '1',
   },
   {
@@ -11,6 +12,7 @@ export const UserData = [
     Email: 'Edd26@gmail.com',
     Password: 'jcycAQ9aptD_dtw',
     Voted: true,
+    img:'/public/assets/img/Howard-Stern.jpg',
     id: '2',
   },
   {
@@ -18,6 +20,7 @@ export const UserData = [
     Email: 'Alena.Mraz@yahoo.com',
     Password: 'clqsmts2r9kdlL6',
     Voted: true,
+    img:'/public/assets/img/Joe-Rogen.jpeg'
     id: '3',
   },
   {
@@ -25,6 +28,7 @@ export const UserData = [
     Email: 'Jess71@hotmail.com',
     Password: 'lVJNzzaW2PUrTsv',
     Voted: true,
+    img:'/public/assets/img/jay-shetty.jpg'
     id: '4',
   },
   {
