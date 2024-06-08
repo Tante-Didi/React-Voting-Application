@@ -25,7 +25,7 @@ const Login = () => {
         <div className="login-container">
           <div className="login-card">
             <img
-              src="/public/assets/img/mic2.JPG"
+              src="/public/mic2.JPG"
               alt="Logo-img"
               className="login-logo-img"
             />
