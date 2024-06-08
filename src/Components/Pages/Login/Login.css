@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Permanent Marker', cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  background: #cac2c7;
+  width: 100%;
+  height: 100%;
+  background-size: cover; /* Stretches the image to cover the container */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image */
+  background-size: contain;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 8%;
+  width: 31vw;
+  height: calc(100vh - 20px);
+  box-shadow: 0 4px 8px rgba(143, 215, 218, 0.1);
+}
+
+.login-card {
+  background-image: url('/src/assets/img/background.webp');
+  padding: 20px;
+  border-radius: 18px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 30.625vw;
+  height: 85vh;
+}
+
+.login-logo-img {
+  width: 10.6vw;
+  height: 20vh;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 500px;
+  transform: scale(1.5);
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  margin-left: 3rem;
+}
+
+.input-group input {
+  margin-left: 8%;
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-button {
+  width: 60%;
+  padding: 10px;
+  background-color: transparent;
+  color: transparent;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: transparent;
+  color: tomato;
+}
+
+.weave {
+  display: block;
+  width: 120px;
+  height: 120px;
+  border: 4px solid #f88c73bd; /* lighten(tomato, 20%) calculated */
+  border-radius: calc((120px / 3) - 4px);
+  margin: calc(120px / 3) auto;
+  position: relative;
+  color: #ff8a71; /* lighten(tomato, 20%) calculated */
+  text-align: center;
+  font: 700 calc(120px / 4) / 120px 'Quicksand', sans-serif;
+}
+
+.weave:before,
+.weave:after {
+  display: block;
+  width: 120px;
+  height: 120px;
+  border: 4px solid #ff8a71; /* lighten(tomato, 20%) calculated */
+  border-radius: calc((120px / 3) - 4px);
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: -4px;
+}
+
+.weave:before {
+  transform: rotate(30deg);
+}
+
+.weave:after {
+  transform: rotate(60deg);
+}
