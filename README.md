@@ -1,12 +1,13 @@
-# React + Vite
+React-Voting-Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This Voting project should contain Form ,main page User page and Adimn.
+
+Unfurtunetly I didnt manage the API logic and the css didnt work when I started write useState and useEffect, so I put it in a comments and didnt progress further then that...
+
+here is a snipt how it would have been display.
+
+I need also help , how to create the other pages without having errors that makes problem displaying my html/css structure.
 
 ![image](https://github.com/Tante-Didi/React-Voting-Application/assets/126551023/b0ac2d89-b227-4dc9-be25-6568b920e3d0)
 
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# React-Voting-Application
