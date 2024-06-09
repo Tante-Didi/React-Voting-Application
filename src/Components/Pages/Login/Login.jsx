@@ -24,11 +24,7 @@ const Login = () => {
       <div>
         <div className="login-container">
           <div className="login-card">
-            <img
-              src={'/public/mic2.JPG'}
-              alt="Logo-img"
-              className="login-logo-img"
-            />
+            <img src={'/mic2.JPG'} alt="Logo-img" className="login-logo-img" />
             <h1>Podcast Voting</h1>
             <form
               className="Login"
